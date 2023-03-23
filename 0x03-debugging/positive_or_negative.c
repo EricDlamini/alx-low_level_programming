@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * positive_or_negative - function
- * @i: parameter to be checked
+ * positive_or_negative - to test if number is pos or neg
+ *
+ * @i: parameter used
+ *
  * Return: is 0
  */
 
 void positive_or_negative(int i)
 {
 	if (i < 0)
-		printf("%d is negative", i);
+		printf("%d is negative\n", i);
+	else if (i > 0)
+		printf("%d is positive\n", i);
 	else
-		printf("%d is positive", i);
+		printf("%d is zero\n", i);
 }
