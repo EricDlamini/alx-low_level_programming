@@ -1,9 +1,12 @@
 #include "main.h"
+#include <ctype.h>
+#include <stdio.h>
 /**
- * isupper - shows upper or loweer case
+ * _isupper - shows upper or loweer case
  *
  * @c: parameter
- * Return: 0
+ * Return: return 1 if upper
+ * and 0 if lower
  */
 
 int _isupper(int c)
