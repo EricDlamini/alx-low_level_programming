@@ -1,8 +1,11 @@
 #include "main.h"
+#include <ctype.h>
+#include <stdio.h>
 /**
  * _isdigit - checks for a digit
  *
- * Return: 0
+ * Return: return 1 if digit
+ * and 0 is otherwise
  */
 int _isdigit(int c)
 {
